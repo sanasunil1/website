@@ -1,0 +1,532 @@
+ //                                                          *OM*
+#include<stdio.h>
+#include<conio.h>
+#define dosa 20;
+#define puri 20;
+#define idli 10;
+#define chapathi 30;
+#define jeerarice 40;
+#define pannermasalaidli 40;
+#define manchurianrecipe 50;
+#define noodels 30;
+#define upma 20;
+#define vada 20;
+#define GOBIRICE 60;
+#define TOMATORICE 60;
+#define RICEDAL 70;
+#define CURDRICE 40;
+#define LEMONRICE 50;
+#define VEGITABLERICE 100;
+#define LEAFYBHIRYANI 120;
+#define JEERARICE 60;
+#define CHICKENFIREDRICE 120;
+#define MUTTONBIRYANI 180;
+#define CHICKENBHIRYANI 120;
+#define CHIKENKADHAI 200;
+#define EGGCURRY 80;
+#define EGGBHIRYANI 300;
+#define MUTTONFRY 200;
+#define PRAWNSFRY 300;
+#define FISHBHIRYANI 280;
+#define CHICKENLEGPICE 200;
+#define KFC 590;
+#define FISHFRY 200;
+#define FRUITSALAD 20;
+#define LEMONJUCIE 20;
+#define LASSI 20;
+#define SWEETSALAD 10;
+#define TEA 20;
+#define COFFEE 20;
+#define BOSTHORLICKS 30;
+#define MILK 10;
+#define HONEYCHILLIPANEER 80;
+#define CHILLIBABYCORN 500;
+#define MUSHROOMMANCHURIAN 100;
+#define MOMOMANCHURIAN 60;
+#define CHINESEIDLI 40;
+#define PANNERMASALAIDLI 40;
+#define IDLIMANCHURIANRECIPE 50;
+#define SHENGJIANBAO 50;
+#define HONEYCHILLIPOTATO 40;
+#define DATEPANCAKES 40;
+#define GOBIRICE 60;
+#define POTATOFIRESRICE 60;
+#define JEERARICE 60;
+#define CHICKENFIREDRICE 120;
+#define SNAKESBHIRYANI 180;
+#define DOGBHIRYANI 120;
+#define LIZARDKADHAI 200;
+#define COWCORN 200;
+#define JIUNIANG 60;
+#define SUANMEITANG 20;
+#define COCACOLA 30;
+#define SWEETSALAD 10;
+#define PEARLMILKTEA 20;
+#define YUNNANCOFFEE 20;
+#define SOYBEANMILK 30;
+#define BREADJAM 20;
+#define PIZZA 50;
+#define BEIGNET 70;
+#define BROWNBOBBY 50;
+#define CORNMEALMUSH 90;
+#define CHOPPEDSALAD  60;
+#define BLT 60;
+#define PIZZA 50;
+#define TUNGASALA 40;
+#define ROASTBEEF 50;
+#define TURKEYSWISSCHEESE 120;
+#define ROASTCHIKEN 180;
+#define CHICKENBHIRYANI 120;
+#define EGGSALAD 200;
+#define CHICKENSALAD 80;
+#define PRAWNSFRY 300;
+#define MOUNTAINDEW 20;
+#define SPRITE 20;
+#define DRPEPPER 50;
+#define CAFFEINEFREEDITECOKE 70;
+void line()
+{
+int x;
+printf("\n");
+for(x=1;x<=70;x++)
+printf("-");
+}
+int main()
+{  
+    
+int i,a,b,c,d,e,x,f,g,h,j,k,l,m,n,o,p,s,q,r,t,sum=0,u,v,w,z;
+do
+{
+printf("\n                                                                 ***SANA 3*$TAR HOTEL***");
+printf("\n\n\n                                                                                WELCOME TO SANA 3*$TAR HOTEL");
+printf("\n\n\n\t\t                                                                                         --A FAMOUS *STAR HOTEL IN INDIA");
+printf("\n\n\n                                                                                                                      PRODDATUR-516360");
+printf("\n\n                                                                                                                               COVID RULES->");
+printf("\n                                                                                                                                     *WASH YOUR HANDS.");
+printf("\n                                                                                                                                     *USE MASK&SPRAY.");
+printf("\n                                                                                                                                     *MAINTAIN 6-FEET DIST.");
+printf("\n\n\n\nMENU      :");
+printf("\n");
+printf("\t\t\t\t1.INDIAN RECIPES\n\t\t\t\t2.CHENISE RECIPES\n\t\t\t\t3.AMERICAN RECIPES");
+printf("\n\n              OREDR THE ANY COUNTRY RECIPES TO VIEW FOOD ITEMS WITH COST    ::::::::::::");
+scanf("%i",&i);
+switch(i)
+{
+           case 1:printf("\n\n                   INDIAN RECIPES  :");
+           printf("\n 1.TIFFINS ITEMS\n2.LUNCH ITEMS & DINNER ITEMS\n3.COOL DRINKS FOREVER\n4.HOT DRINKS");
+           printf("\n ORDER ANY ITEMS   :");
+           scanf("%i",&a);
+           switch(a)
+           {
+            case 1:printf("\nTIFFINS   :");
+                  printf("\n1.DOSA - 20R/S\n2.PURI - 20R/S\n3.IDLI - 10R/S\n4.CHAPATI -30R/S\n5.JEERA RICE -40R/S\n6.PANNER MASALA IDLI - 40R/S\n7.IDLI MANCHURIAN RECIPE -50R/S\n8.NOODELS -30R/S\n9.UPMA -20R/S\n10.VADA -20R/S");
+                  printf("\n\n order any item :");
+                  scanf("%i",&d);
+                  switch(d)
+                   {
+                      case 1:printf("\n DOSA");
+                             sum=sum+dosa;
+                             break;
+                      case 2:printf("\n PURI");
+                             sum=sum+puri;
+                             break;
+                      case 3:printf("\n IDLI");
+                             sum=sum+idli;
+                             break;
+                      case 4:printf("\n CHAPATHI");
+                             sum=sum+chapathi;
+                             break;
+                      case 5:printf("\n JEERA RICE");
+                             sum=sum+jeerarice;
+                             break;
+                      case 6:printf("\n PANNER MASALA");
+                             sum=sum+pannermasalaidli;
+                             break;
+                      case 7:printf("\nIDLI MANCHURIAN RECIPE");
+                             sum=sum+manchurianrecipe;
+                             break;
+                      case 8:printf("\n NOODELS");
+                             sum=sum+noodels;
+                             break;
+                      case 9:printf("\n UPMA");
+                             sum=sum+upma;
+                             break;
+                      case 10:printf("\n VADA");
+                             sum=sum+vada;
+                               break;
+                  }
+                  break;
+            case 2:printf("\n\n\n\n                           LUNCH ITEMS\t     &\t      DINNER ITEMS     :");
+                  printf("\n\n 1.VEG ITEMS \n\n 2.NON VEG ITEMS");
+                  printf("\n\n ORDER ANY ITEM :");
+                 scanf("%i",&e);
+  switch(e)
+  {
+  case 1: printf("\n VEG ITEMS :");
+          printf("\n\t\t1.GOBI RICE - 60R/S\n\t\t2.TOMATO RICE -60R/s\n\t\t3.RICE+DAL -70R/S\n\t\t4.CURD RICE -40R/S\n\t\t5.LEMON RICE - 50R/S\n\t\t6.VEGITABLE BIRYANI -100R/S\n\t\t7.GREEN LEAF BHIRYANI -120R/S\n\t\t8.JEERA RICE -60R/S");
+  printf("\nODER ANY ITEM :");
+  scanf("%i",&f);
+  switch(f)
+  {
+     case 1:printf("\n GOBI RICE");
+           sum=sum+GOBIRICE;
+            break;
+     case 2:printf("\n TOMATO RICE");
+           sum=sum+TOMATORICE;
+            break;
+     case 3:printf("\n RICE+DAL");
+           sum=sum+RICEDAL;
+            break;
+     case 4:printf("\n CURDRICE");
+           sum=sum+CURDRICE;
+            break;
+     case 5:printf("\n LEMON RICE");
+            sum=sum+LEMONRICE;
+           break;
+    case 6:printf("\n VEGITABLE RICE");
+                             sum=sum+VEGITABLERICE;
+           break;
+    case 7:printf("\n LEAFY BHIRYANI");
+           sum=sum+LEAFYBHIRYANI;
+           break;
+    case 8:printf("\n JEERA RICE");
+           sum=sum+JEERARICE;
+           break;
+}
+break;
+                      case 2: printf("\n NON VEG ITEMS :");
+                              printf("\n\t\t1.CHICKEN FIRED RICE-120R/S\n\t\t2.MUTTON BIRYANI - 180R/S\n\t\t3.CHICKEN BHIRYANI - 120R/S\n\t\t4.CHIKEN KADHAI -200R/S\n\t\t5.EGG CURRY -80R/S\n\t\t6.EGG BHIRYANIY-300R/S\n\t\t7.MUTTON FRY -200R/S\n\t\t8.PRAWNS FRY-300R/S\n\t\t9.FISH BHIRYANI -280R/S\n\t\t10.CHICKEN LEG PICE - 200R/S\n\t\t11.KFC-590R/S\n\t\t12.FISH FRY -200R/S");
+                              printf("\n ORDER ANY ITEM :");
+  scanf("%i",&g);
+  switch(g)
+  {
+           case  1:printf("\nCHICKEN FIRED RICE");
+                   sum=sum+CHICKENFIREDRICE;
+      break;
+   case  2:printf("\nMUTTON BIRYANI");
+           sum=sum+MUTTONBIRYANI;
+      break;
+case  3:printf("\nCHICKEN BHIRYANI");
+       sum=sum+CHICKENBHIRYANI;
+      break;
+case  4:printf("\nCHIKEN KADHAI");
+       sum=sum+CHIKENKADHAI;
+      break;
+case  5:printf("\nEGG CURRY");
+       sum=sum+EGGCURRY;
+          break;
+case  6:printf("\nEGG BHIRYANI");
+       sum=sum+EGGBHIRYANI;
+      break;
+case  7:printf("\nMUTTON FRY");
+       sum=sum+MUTTONFRY;
+      break;
+    case  8:printf("\nPRAWNS FRY");
+           sum=sum+PRAWNSFRY;
+      break;
+  case  9:printf("\nFISH BHIRYANI");
+         sum=sum+FISHBHIRYANI;
+      break;
+  case  10:printf("\nCHICKEN LEG PICE");
+          sum=sum+CHICKENLEGPICE;
+      break;
+       case  11:printf("\nKFC");
+                sum=sum+KFC;
+      break;
+case 12:printf("\nFISH FRY");
+       sum=sum+FISHFRY;
+      break;                
+  }
+}
+  break;
+case 3:printf("\n\nCOOL DRINKS FOREVER   :      ");
+                  printf("\n\t\t1.FRUIT SALAD -20R/S\n\t\t2.LEMON JUCIE - 20R/S\n\t\t3.LASSI -20R/S\n\t\t4.SWEET SALAD -10R/S");
+                  printf("\n ORDER ANY COOL DRINKS    :");
+                  scanf("%i",&h);
+                  switch(h)
+                  {
+                              case 1:printf("\n FRUIT SALAD");
+ sum=sum+FRUITSALAD;                  
+                             break;
+                     case 2:printf("\n LEMON JUCIE");
+           sum=sum+LEMONJUCIE;
+                               break;
+
+                     case 3:printf("\n LASSI");
+ sum=sum+LASSI;
+                             break;
+                     case 4:printf("\n SWEET SALAD");
+             sum=sum+SWEETSALAD;
+                            break;
+                  }
+                  break;
+           case 4:printf("\n\nHOT DRINKS            :");
+                  printf("\n\t\t1.TEA -20R/S\n\t\t2.COFFEE -20R/S\n\t\t3.BOST&HORLICKS - 30R/S\n\t\t4.MILK - 10R/S");
+                  printf("\n ORDER ANY DRINK  :");
+                  scanf("%i",&j);
+                  switch(j)
+                  {
+                    case 1:printf("\n TEA");
+ sum=sum+TEA;
+                           break;
+                    case 2:printf("\n COFFEE");
+ sum=sum+COFFEE;
+                           break;
+                    case 3:printf("\n BOST&HORLICKS");
+ sum=sum+BOSTHORLICKS;
+                           break;
+                    case 4:printf("\n MILK");
+ sum=sum+MILK;
+                           break;
+           }
+  }
+           break;
+          case 2:printf("\n\n                   CHENISE RECIPES  :");
+                 printf("\n1.TIFFINS ITEMS\n2.LUNCH & DINNER ITEMS\n3.COOL DRINKS\n4.HOT DRINKS");
+               printf("\n ORDER ANY ITEMS ");
+               scanf("%i",&b);
+               switch(b)
+               {
+   case 1:printf("\nTIFFINS   :");
+                  printf("\n\t\t1.HONEY CHILLI PANEER - 80R/S\n\t\t2.CHILLI BABY CORN - 500R/S\n\t\t3.MUSHROOM MANCHURIAN - 100R/S\n\t\t4.MOMO MANCHURIAN -60R/S\n\t\t5.CHINESE IDLI -40R/S\n\t\t6.PANNER MASALA IDLI - 40R/S\n\t\t7.IDLI MANCHURIAN RECIPE -50R/S\n\t\t8.SHENG JIAN BAO -50R/S\n\t\t9.HONEY CHILLI POTATO -40R/S\n\t\t10.DATE PANCAKES -40R/S");
+                  printf("\n ORDER ANY ITEM :");
+                  scanf("%i",&k);
+                  switch(k)
+                  {
+                  case 1:printf("\n HONEY CHILLI PANNER");
+  sum=sum+HONEYCHILLIPANEER;
+                         break;
+                  case 2:printf("\n CHILLI BABY CORN");
+sum=sum+CHILLIBABYCORN;
+                         break;
+                  case 3:printf("\n MUSHROOM MUNCHURIAN");
+ sum=sum+MUSHROOMMANCHURIAN;
+                         break;
+                  case 4:printf("\n MOMO MANCHURIAN");
+sum=sum+MOMOMANCHURIAN;
+                         break;
+                  case 5:printf("\n CHINESE IDLI");
+    sum=sum+CHINESEIDLI;
+                         break;
+                  case 6:printf("\n PANNER MASALA IDLI");
+sum=sum+HONEYCHILLIPANEER;
+                         break;
+                  case 7:printf("\n IDLI MANCHURIAN RECIPE");
+ sum=sum+IDLIMANCHURIANRECIPE;
+                         break;
+                  case 8:printf("\n SHENG JIAN BAO");
+sum=sum+SHENGJIANBAO;
+                         break;
+                  case 9:printf("\n HONEY CHILLI POTATO");
+   sum=sum+HONEYCHILLIPOTATO;
+                         break;
+                    case 10:printf("\n DATE PANCAKES");
+ sum=sum+DATEPANCAKES;
+                            break;
+                        }
+                   break;
+           case 2:printf("\n\n\n\n                           LUNCH ITEMS\t     &\t      DINNER ITEMS     :");
+                  printf("\n 1.VEG ITEMS  \n 2. NON VEG ITEMS ");
+                  printf("\n ORDER ANY ITEM :");
+                  scanf("%i",&l);
+                  switch(l)
+                  {
+                  case 1:printf("\nVEG ITEMS  :");
+                              printf("\n\t\t1.GOBI RICE - 60R/S\n\t\t2.POTATO FIRES RICE -60R/s\n\t\t3.JEERA RICE -60R/S");
+  printf("\n ORDER ANY ITEM  :");
+  scanf("%i",&m);
+  switch(m)
+  {
+  case 1:printf("\n GOBI RICE");
+       sum=sum+GOBIRICE;
+         break;
+  case 2:printf("\n POTATO FIRES RICE");
+sum=sum+POTATOFIRESRICE;
+         break;
+  case 3:printf("\n JEERA RICE");
+sum=sum+JEERARICE;
+         break;
+ }
+ break;
+case 2:printf("\n NON VEG ITEMS  :");
+      printf("\n\t\t1.CHICKEN FIRED RICE-120R/S\n\t\t2.SNAKES BHIRYANI- 180R/S\n\t\t3.DOG BHIRYANI - 120R/S\n\t\t4.LIZARD KADHAI -200R/S5.\n\t\tCOW CORN -200R/S");
+                      printf("\n ORDER ANY ITEM  :");
+                          scanf("%i",&n);
+                          switch(n)
+                          {
+                          case 1:printf("\n CHICKEN FIRED RICE");
+sum=sum+CHICKENFIREDRICE;
+                                 break;
+                          case 2:printf("\n SNAKES BHIRYANI");
+      sum=sum+SNAKESBHIRYANI;
+                                 break;
+                          case 3:printf("\n DOG BHIRYANI");
+sum=sum+DOGBHIRYANI;
+                                 break;
+                          case 4:printf("\n LIZARD KADHAI");
+sum=sum+LIZARDKADHAI;
+                                 break;
+                          case 5:printf("\n COW CORN");
+  sum=sum+COWCORN;
+                                 break;
+     }
+  }
+  break;
+           case 3:printf("\n\nCOOL DRINKS FOREVER   :      ");
+                  printf("\n\t\t11.JIUNIANG -60R/S\n\t\t2.SUANMEITANG - 20R/S\n\t\t3.COCA-COLA-30R/S\n\t\t4.SWEET SALAD -10R/S");
+                  printf("\n ORDER ANY DRINK :");
+                  scanf("%i",&o);
+                  switch(o)
+                  {
+                      case 1:printf("\n JIUNIANG");
+sum=sum+JIUNIANG;
+                             break;
+                      case 2:printf("\n SUANMEITANG");
+sum=sum+SUANMEITANG;
+                             break;
+                      case 3:printf("\n COCA-COLA");
+      sum=sum+COCACOLA;
+                             break;
+                      case 4:printf("\n SWEET SALAD");
+    sum=sum+SWEETSALAD;
+                             break;
+  }
+                  break;
+           case 4:printf("\n\nHOT DRINKS           :");
+                  printf("\n\t\t1.PEARL MILK TEA -20R/S\n\t\t2.YUNNAN COFFEE -20R/S\n\t\t3.SOYBEAN MILK- 30R/S");
+                  printf("\n ORDER ANY DRINK :");
+                  scanf("%i",&p);
+                  switch(p)
+                  {
+                  case 1:printf("\n PEARL MILK TEA");
+  sum=sum+PEARLMILKTEA;
+                         break;
+                  case 2:printf("\n YUNNAN COFFEE");
+  sum=sum+YUNNANCOFFEE;
+                         break;
+                  case 3:printf("\n SOYBEAN MILK");
+ sum=sum+SOYBEANMILK;
+                         break;
+  }
+}
+                  break;
+          case 3:printf("\n\n                   AMERICAN RECIPES  :");
+               printf("\n1.TIFFINS ITEMS\n2.LUNCH & DINNER ITEMS\n3.COOL DRINKS");
+               printf("\n ORDER ANY ");
+               scanf("%i",&c);
+               switch(c)
+               {
+           case 1:printf("\nTIFFINS   :");
+                  printf("\n\t\t1.BREAD+JAM - 20R/S\n\t\t2.PIZZA - 50R/S\n\t\t3.BEIGNET - 70R/S\n\t\t4.BROWN BOBBY -50R/S\n\t\t5.CORNMEAL MUSH -90R/S");
+                  printf("\n ORDER ANY ITEM :");
+                  scanf("%i",&q);
+                  switch(q)
+               {
+                   case 1:printf("\n BREAD+JAM");
+sum=sum+BREADJAM;
+                          break;
+                   case 2:printf("\n PIZZA");
+    sum=sum+PIZZA;
+                          break;
+                   case 3:printf("\n BEIGNET");
+sum=sum+BEIGNET;
+                          break;
+                   case 4:printf("\n BROWN BOBBY");
+   sum=sum+BROWNBOBBY;
+                          break;
+                   case 5:printf("\nCORNMEAL MUSH");
+  sum=sum+CORNMEALMUSH;
+                          break;
+}
+    break;
+           case 2:printf("\n\n\n\n                           LUNCH ITEMS\t     &\t      DINNER ITEMS     :");
+                  printf("\n1.VEG ITEMS 2.NON VEG ITEMS ");
+                  printf("\n ORDER ANY ITEM   :");
+                  scanf("%i",&r);
+                  switch(r)
+                  {
+                     case 1:printf("\n VEG ITEMS :");
+                             printf("\n\t\t1.CHOPPED SALAD - 60R/S\n\t\t2.BLT -60R/s\n\t\t3.PIZZA -70R/S\n\t\t4.TUNGA SALA -40R/S\n\t\t5.ROAST BEEF - 50R/S");
+                             printf("\n ORDER ANY ITEM  :");
+                             scanf("%i",&z);
+                             switch(z)
+                             {
+                                 case 1:printf("\n CHOPPED SALAD");
+sum=sum+CHOPPEDSALAD;
+      break;
+case 2:printf("\n BLT");
+sum=sum+BLT;
+      break;
+   case 3:printf("\n PIZZA");
+sum=sum+PIZZA;
+      break;
+case 4:printf("\n TUNGA SALA");
+               sum=sum+TUNGASALA;
+      break;
+case 5:printf("\n ROAST BEEF");
+sum=sum+ROASTBEEF;
+      break;
+}
+break;
+case 2:printf("\n NON VEG ITEMS  :");
+      printf("\n\t\t1.TURKEY+SWISS CHEESE-120R/S\n\t\t2.ROAST CHIKEN - 180R/S\n\t\t3.CHICKEN BHIRYANI - 120R/S\n\t\t4.EGG SALAD -200R/S\n\t\t5.CHICKEN SALAD -80R/S\n\t\t6.PRAWNS FRY-300R/S");
+      printf("\n ORDER ANY ITEMS :");
+      scanf("%i",&t);
+      switch(t)
+      {
+         case 1:printf("\n TURKEY+SWISS CHEESE");
+sum=sum+TURKEYSWISSCHEESE;
+              break;
+         case 2:printf("\n ROAST CHICKEN");
+               sum=sum+ROASTCHIKEN;
+               break;
+         case 3:printf("\n CHICKEN BHIRYANI");
+               sum=sum+CHICKENBHIRYANI;
+               break;
+case 4:printf("\n EGG SALAD");
+  sum=sum+EGGSALAD;
+      break;
+case 5:printf("\n CHICKEN SALAD");
+sum=sum+CHICKENSALAD;
+      break;
+case 6:printf("\n PRAWNS FRY");
+sum=sum+PRAWNSFRY;
+     break;  
+  }
+}
+        break;
+           case 3:printf("\n\nCOOL DRINKS FOREVER   :      ");
+                  printf("\n\t\t1.MOUNTAIN DEW -20R/S\n\t\t2.SPRITE - 20R/S\n\t\t3.DR PEPPER -50R/S\n\t\t4.CAFFEINE-FREE DITE COKE -70R/S");
+                  printf("\n ORDER ANY ITEM :");
+                  scanf("%i",&u);
+                  switch(u)
+                  {
+                    case 1:printf("\n MOUNTAIN DEW");
+     sum=sum+MOUNTAINDEW;
+                            break;
+                    case 2:printf("\n SPRITE");
+     sum=sum+SPRITE;
+                          break;
+                    case 3:printf("\n DR PEPPER");
+     sum=sum+DRPEPPER;
+                           break;
+                    case 4:printf("\n CAFFEINE-FREE DITE COKE");
+     sum=sum+CAFFEINEFREEDITECOKE;
+                           break;
+  }
+     break;
+                   }
+         }
+    printf("\n Did you want see again the MENU DISHES.(1=yes/0=no)");
+    scanf("%i",&t);
+}while(t==1);
+    printf("\n\n\n");
+    printf("\n\n       PAYMENT RECIPET      ");
+    line();
+    printf("\n\n              TOTAL AMOUNT TO BE PAID =%i RUPEES",sum);
+    line();
+printf("\n\n\n\n\n                              $THANKS FOR VISITING SANA 3*$TAR HOTEL");
+printf("\n                                         WELCOME YOU AGAIN AND AGIN");
+    line();
+getch();
+}
